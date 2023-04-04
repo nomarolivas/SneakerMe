@@ -27,17 +27,29 @@
 
 
 import Navbar from './Navbar';
-import About from './About';
-import Sale from './Sale';
-import Shoes from './Shoes';
-import Login from './Login';
+// import About from './About';
+// import Sale from './Sale';
+// import Shoes from './Shoes';
+// import Login from './Login';
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import './App.css';
 
 function App() {
   return (
     <Router>
+      <div className="routes">
 
+        <Navbar />
+
+
+        
+
+        </div>
+
+        
+
+        
+      
 
       
     </Router>
