@@ -27,6 +27,7 @@
 
 
 import Navbar from './Navbar';
+import Home from './Home';
 import About from './About';
 import Sale from './Sale';
 import Shoes from './Shoes';
@@ -41,7 +42,7 @@ function App() {
         <Navbar />
 
         <Routes>
-          {/* <Route path="/shoes" element={<Shoes />} /> */}
+          <Route path="/" element={<Home />} />
           <Route path="/shoes" element={<Shoes />} />
           <Route path="/sale" element={<Sale />} />
           <Route path="/about" element={<About />} />
