@@ -1,7 +1,16 @@
+
+
+
 const Sale = () => {
     return (
 
-        <h1>Sale Page</h1>
+        <div className="salePage">
+            <h1>Sale Page</h1>
+
+
+        </div>
+
+        
         
         
     );
