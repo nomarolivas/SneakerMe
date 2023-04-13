@@ -20,6 +20,29 @@
   color: blue;
 
 }
+.shoesName{
+  color: blue;
+}
+
+.shoesPage{
+  text-align: center; 
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 10px;
+}
 
 
+.column{
+  float:left;
+  width: 25%;
+  padding: 10px;
+  height: 300px;
+}
 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}

@@ -1,20 +1,4 @@
 import { Link } from 'react-router-dom';
-// const StyledLink = styled(Link)`
-//   color: Blue;
-//   text-decoration: none;
-//   margin: 1rem;
-//   position: relative;
-// `;
-// const styles = {
-    
-//     tabLinks: {
-//       padding: "20px",
-//       color: "black",
-//       fontWeight: 'bold'
-      
-//     },
-//   };
-
 
 const Navbar = () => {
     return (
