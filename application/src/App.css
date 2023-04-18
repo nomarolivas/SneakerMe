@@ -37,7 +37,6 @@
   padding-top: 15px;
   padding-bottom: 15px;
   
-  
 
 }
 
@@ -45,7 +44,7 @@
   margin-left: 20px;
 }
 
-.pageTitleShoeEX{
+.pageTitleShoeDesc{
   margin-left: 20px;
   font-size: 15px;
   font-weight: 500;
@@ -56,6 +55,18 @@
   color: blue;
 }
 
+.salePageTitle{
+  margin-left: 20px;
+  
+}
+
+
+.salePageDesc{
+  margin-left: 20px;
+  font-size: 15px;
+  font-weight: 500;
+
+}
 
 
 .grid {
@@ -92,6 +103,6 @@
   text-align: center;
   margin-top: 10px;
   margin-bottom: 10px;
-  
+
 
 }

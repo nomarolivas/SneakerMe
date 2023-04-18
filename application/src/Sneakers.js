@@ -8,7 +8,7 @@ const Sneakers = () => {
 
             <div className="pageTitle">
                <h2 className="pageTitleShoe">Sneakers</h2>
-               <h4 className="pageTitleShoeEX">Nike Dunks Air Jordan 4 Air Jordan 1</h4>
+               <h4 className="pageTitleShoeDesc">Nike Dunks Air Jordan 4 Air Jordan 1</h4>
             </div>
 
             <div className="row">
