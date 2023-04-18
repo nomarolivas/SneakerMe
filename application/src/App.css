@@ -1,16 +1,26 @@
 
+.websiteTitle{
+  font-size: 45px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
 .navbar{
   padding: 0;
   margin: 0;
   color: green;
   text-align: center;
 
+  /* border-bottom: 1px solid; */
+
+
 }
 
 
 .link{
   color: black;
-  padding: "20px";
+  /* padding: "20px"; */
+  padding-bottom: 50px;
   margin: 20px;
   font-weight: 700;
 
@@ -21,8 +31,25 @@
 
 }
 
-.shoesPage{
-  text-align: center; 
+
+.pageTitle{
+  background-color: #f1f1f1;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  
+  
+
+}
+
+.pageTitleShoe{
+  margin-left: 20px;
+}
+
+.pageTitleShoeEX{
+  margin-left: 20px;
+  font-size: 15px;
+  font-weight: 500;
+
 }
 
 .shoesName{
@@ -44,10 +71,19 @@
   width: 31%;
   padding: 10px;
   height: 300px;
+  text-align: center; 
+  padding-bottom: 70px;
 }
 
 .row:after {
   content: "";
   display: table;
   clear: both;
+}
+
+.addToCart{
+  border-radius: 12px;
+  padding: 10px 25px;
+  font-size: 15px;
+
 }

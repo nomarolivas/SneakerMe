@@ -30,7 +30,7 @@ import Navbar from './Navbar';
 import Home from './Home';
 import About from './About';
 import Sale from './Sale';
-import Shoes from './Shoes';
+import Sneakers from './Sneakers';
 import Login from './Login';
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import './App.css';
@@ -43,7 +43,7 @@ function App() {
 
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/shoes" element={<Shoes />} />
+          <Route path="/Sneakers" element={<Sneakers />} />
           <Route path="/sale" element={<Sale />} />
           <Route path="/about" element={<About />} />
           <Route path="/login" element={<Login />} >
