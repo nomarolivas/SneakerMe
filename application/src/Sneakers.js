@@ -49,7 +49,7 @@ const Sneakers = () => {
 
                 <div className="column">
                 <img src={require('./images/jordan_4_amm.webp')} alt="Nike_Dunk_Panda" width="300" height="200"/>
-                   <h3>A Ma Manié x Air Jordan 4 </h3>
+                   <h3>A Ma Maniére x Air Jordan 4 </h3>
                    <p>$225</p>
                    <button className='addToCart'>Add to cart</button>
 
@@ -90,7 +90,13 @@ const Sneakers = () => {
 
             </div>
 
+            <div className='footer'> Nomar Olivas @ 2023 </div>
+
         </div>
+
+        
+
+
             
     );
 }
