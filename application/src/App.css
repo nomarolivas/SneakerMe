@@ -10,10 +10,6 @@
   margin: 0;
   color: green;
   text-align: center;
-
-  /* border-bottom: 1px solid; */
-
-
 }
 
 
@@ -108,6 +104,66 @@
   padding-top: 20px;
   margin-top: 20px;
   margin-bottom: 10px;
+}
+
+.pageTitleHistory{
+  /* margin-left: 20px; */
+  text-align: center;
+  /* color: blue; */
+  
+}
+
+
+.coverPic{
+  padding: 0;
+  /* display: block; */
+  margin: 0 auto;
+    
+}
+
+.dividerForPara{
+  padding-top: 30px;
+}
+
+.historyPic{
+  float: left;
+  height: 30%;
+  width: 30%;
+  font-family: Veranda;
+  padding-left: 40px;
+}
+
+.historyBio{
+  text-align: center;
+  
+}
+
+.historyBioPara{
+  /* display: flex; */
+  font-size: 20px;
+  
+
+  margin-left: 40%;
+  margin-right: 10%;
+  margin-bottom: 20%;
+  /* padding: auto; */
+  resize: none;
+  /* position: fixed; */
+
+  /* min-width: 30%;
+
+  width: 0; */
+
 
 
 }
+
+.shoeShelf{
+  float: right;
+}
+
+
+
+
+
+
