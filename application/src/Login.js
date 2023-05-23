@@ -30,6 +30,8 @@ const Login = () => {
 
             </form>
 
+            <div className='footerLogIn'> Nomar Olivas @ 2023 </div>
+
      </div>
         
         
