@@ -122,45 +122,106 @@
 }
 
 .dividerForPara{
-  padding-top: 30px;
+  padding-top: 20px;
+}
+.dividerForParaBottom{
+  padding-top: 100px;
+
 }
 
 .historyPic{
   float: left;
   height: 30%;
   width: 30%;
-  font-family: Veranda;
+  /* font-family: Veranda; */
   padding-left: 40px;
 }
+
 
 .historyBio{
   text-align: center;
   
 }
 
-.historyBioPara{
-  /* display: flex; */
+.offerBio{
+  text-align: center;
+  padding-right: 20px;
+
+}
+
+.offerBioPara{
   font-size: 20px;
+
+  margin-left: 40px;
+
+  margin-right: 20px;
+
+  padding-right: 20px;
+
+
   
 
+  /* margin-left: 40%;
+  margin-right: 10%;
+  margin-bottom: 20%; */
+  resize: none;
+  /* float: left; */
+
+}
+
+.historyBioPara{
+  font-size: 20px;
   margin-left: 40%;
   margin-right: 10%;
   margin-bottom: 20%;
-  /* padding: auto; */
   resize: none;
-  /* position: fixed; */
-
-  /* min-width: 30%;
-
-  width: 0; */
-
-
-
 }
 
 .shoeShelf{
   float: right;
+  padding-right: 40px;
+  padding-left: 20px;
 }
+
+
+.logInTop{
+  padding-top: 10px;
+}
+
+.loginPage{
+
+  text-align: center;
+
+}
+
+.logInForm{
+
+  border-style: inset;
+  border-width: 10px;
+  border-color: rgb(0, 239, 0);
+  width: 300px;
+  height: 200px;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+
+ 
+}
+
+
+.input-container{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+  
+
+  
+
+}
+
+
+
 
 
 

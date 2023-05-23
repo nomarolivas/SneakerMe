@@ -12,7 +12,7 @@ const About = () => {
   
             </div>
             
-            <div classname="coverPic">
+            <div className="coverPic">
                 <img src={require('./images/sneakerPile.jpeg')} alt="Pile of sneakers" width="100%"  />
             </div>
 
@@ -26,13 +26,23 @@ const About = () => {
            
             <h2 className="historyBio">Our History</h2>
 
-            <p className="historyBioPara">Founded in 2005 by Christiaan Ashworth and John Parker, END. was created through a shared passion for fashion, design, art, and music. Through this passion for culture the collective vision was to bring world-renowned names, emerging designers and unearthing brands from all corners of the globe to northeast England’s like-minded community. 15 years later and END. is now a leading fashion, sneaker, and design destination, offering its global community unique experiences via physical concept stores and digital touchpoints.</p>
+            <p className="historyBioPara">Founded in 2000 by Nomar Olivas and Marina Villasenor, SneakerMe was created through a shared passion for fashion, design, art, and music. Through this passion for culture the collective vision was to bring world-renowned names, emerging designers and unearthing brands from all corners of the globe. 23 years later, SneakerMe is now a leading sneaker destination, offering its global community unique experiences via the online store.</p>
+            
+            <div className='dividerForParaBottom'>
+                <h1> </h1>
+            </div>
+
+            <img src={require('./images/sneakerStore.webp')} alt="Nike Dunk Low Medium Olive" className="shoeShelf"/>
+
+            <h2 className="offerBio">What We Offer</h2>
+
+            <p className="offerBioPara">SneakerMe, the leading online destination for sneaker enthusiasts, offers an unparalleled shopping experience when it comes to purchasing the latest and most sought-after sneakers. With a meticulous curation of top-tier brands and exclusive releases, SneakerMe provides a wide selection that caters to every individual's style and preference. The user-friendly interface and intuitive navigation make browsing through their extensive catalog a breeze.</p>
             
             <div className='dividerForPara'>
                 <h1> </h1>
             </div>
 
-            <img src={require('./images/sneakerStore.webp')} alt="Nike Dunk Low Medium Olive" className="shoeShelf"/>
+            <div className='footer'> Nomar Olivas @ 2023 </div>
             
 
              
