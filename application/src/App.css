@@ -121,6 +121,15 @@
     
 }
 
+.sliderImages{
+  padding: 0;
+  /* display: block; */
+  margin: 0 auto;
+
+}
+
+
+
 .dividerForPara{
   padding-top: 20px;
 }
@@ -234,4 +243,8 @@
 
 
 
+.latestReleases{
+  padding-top: 20px;
+  padding-left: 20px;
 
+}
