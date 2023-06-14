@@ -1,4 +1,3 @@
-// import React from "react";
 import React, { useState } from "react";
 import SimpleImageSlider from "react-simple-image-slider";
 
@@ -99,23 +98,11 @@ const Home = () => {
                     <p>$220</p>
                     
                 </div>
-
- 
-
             </div>
 
-                
-                
-
-                <div className='footer'> Nomar Olivas @ 2023 </div>
-                
-
-
+            <div className='footer'> Nomar Olivas @ 2023 </div> 
 
         </div>
-
-        
-        
         
     );
 }

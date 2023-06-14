@@ -94,10 +94,6 @@ const Sneakers = () => {
 
         </div>
 
-        
-
-
-            
     );
 }
 

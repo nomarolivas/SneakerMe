@@ -44,10 +44,6 @@ const About = () => {
 
             <div className='footer'> Nomar Olivas @ 2023 </div>
             
-
-             
-
- 
         </div>
 
         

@@ -13,9 +13,6 @@ const Login = () => {
             </div>
 
 
-
-            
-
             <form className="logInForm">
                 <h3 className= "logInTop">Login</h3>
                 <div className="input-container">
