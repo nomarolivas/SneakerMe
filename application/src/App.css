@@ -15,7 +15,6 @@
 
 .link{
   color: black;
-  /* padding: "20px"; */
   padding-bottom: 50px;
   margin: 20px;
   font-weight: 700;
@@ -24,7 +23,6 @@
 
 .link:hover{
   color: blue;
-
 }
 
 
@@ -32,8 +30,6 @@
   background-color: #f1f1f1;
   padding-top: 15px;
   padding-bottom: 15px;
-
-
 }
 
 .pageTitleShoe{
@@ -78,7 +74,6 @@
 
 .column{
   float:left;
-  /* width: 25%; */
   width: 31%;
   padding: 10px;
   height: 300px;
@@ -107,28 +102,19 @@
 }
 
 .pageTitleHistory{
-  /* margin-left: 20px; */
   text-align: center;
-  /* color: blue; */
-  
 }
 
 
 .coverPic{
   padding: 0;
-  /* display: block; */
   margin: 0 auto;
-    
 }
 
 .sliderImages{
   padding: 0;
-  /* display: block; */
   margin: 0 auto;
-
 }
-
-
 
 .dividerForPara{
   padding-top: 20px;
@@ -142,7 +128,6 @@
   float: left;
   height: 30%;
   width: 30%;
-  /* font-family: Veranda; */
   padding-left: 40px;
 }
 
@@ -160,22 +145,10 @@
 
 .offerBioPara{
   font-size: 20px;
-
   margin-left: 40px;
-
   margin-right: 20px;
-
   padding-right: 20px;
-
-
-  
-
-  /* margin-left: 40%;
-  margin-right: 10%;
-  margin-bottom: 20%; */
   resize: none;
-  /* float: left; */
-
 }
 
 .historyBioPara{
@@ -198,13 +171,10 @@
 }
 
 .loginPage{
-
   text-align: center;
-
 }
 
 .logInForm{
-
   border-style: inset;
   border-width: 10px;
   border-color: rgb(0, 239, 0);
@@ -214,21 +184,13 @@
   margin-left: auto;
   margin-right: auto;
   margin-top: 100px;
-
- 
 }
-
 
 .input-container{
   display: flex;
   justify-content: center;
   padding-bottom: 20px;
-  
-
-  
-
 }
-
 
 .footerLogIn{
   position: absolute;
@@ -238,13 +200,7 @@
 }
 
 
-
-
-
-
-
 .latestReleases{
   padding-top: 20px;
   padding-left: 20px;
-
 }
