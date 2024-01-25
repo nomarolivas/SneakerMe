@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import SimpleImageSlider from "react-simple-image-slider";
+// import SimpleImageSlider from "react-simple-image-slider";
 
 const sliderImages = [
     {
@@ -37,11 +37,9 @@ const Home = () => {
 
                 <div className="pageTitle">
 
-                
-    
                 </div>
 
-            <div className="image-slider">
+            {/* <div className="image-slider">
                 
 
             <SimpleImageSlider
@@ -62,7 +60,9 @@ const Home = () => {
                         
             />
 
-            </div>  
+            </div>   */}
+
+            {/* End of slider */}
 
                 <div className='dividerForPara'>
                     <h1> </h1>
