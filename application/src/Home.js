@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-// import SimpleImageSlider from "react-simple-image-slider";
+import SimpleImageSlider from "react-simple-image-slider";
 
 const sliderImages = [
     {
@@ -10,9 +10,6 @@ const sliderImages = [
     },
     {
         url: "https://images.unsplash.com/photo-1530202218-5a52c6d42753?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
-    },
-    {
-        url: "https://images.unsplash.com/photo-1513135404525-778c503bbd0e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1173&q=80",
     },
     {
         url: "https://images.unsplash.com/photo-1604852116498-d442170c1738?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
@@ -39,13 +36,15 @@ const Home = () => {
 
                 </div>
 
-            {/* <div className="image-slider">
+            <div className="image-slider">
                 
 
             <SimpleImageSlider
             style={{ margin: '0 auto', padding: '0', width: '100% auto'}}
-                width= {1070} 
+                // width= {1070} 
+                width= "100%"
                 height={600}
+
                 navMargin={0}
                 images={sliderImages}
                 showBullets={true}
@@ -56,11 +55,11 @@ const Home = () => {
                 onStartSlide = {(index, length) => {
                     setImageNum(index);
                 }}
-                autoPlayDelay = {4}
+                autoPlayDelay = {8}
                         
             />
 
-            </div>   */}
+            </div>  
 
             {/* End of slider */}
 
